@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<title>Hillside Storage</title>
+
+		<!-- Viewport for Responsivity -->
+		<meta name="viewport" content="width=100%, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/map.css">
+		<link rel="stylesheet" type="text/css" href="css/tabs.min.css">
+		<link rel="stylesheet" type="text/css" href="controller/mapCtrl.css">
+
+		<!-- Scripts -->
+		<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="js/tabs.js"></script>
+
+	</head>
+
+<!-- ___________________BODY_________________________________ -->
+
+	<body>
+
+	<!-- Site Header -->
+		<header id="header">
+			<div class="inner">
+
+				<a id="logo" href="index.html"></a>
+
+				<div class="clear"></div>
+			</div>
+		</header>
+	<!-- END Site Header -->
+
+	<!-- MAP -->
+		<div id="content">
+			
+			<section class="inner over">
+				<!-- Map -->
+				<div class="map-container">
+					<div class="window-mockup">
+						<div class="window-bar"></div>
+					</div>
+					<div id="mapplic"></div>
+				</div>
+			</section>
+		
+	<!-- END MAP -->
+
+			<div id="wrap">
+
+<!-- ___________________PAGE_________________________________ -->
+
+				<div id="page">
+
+			        <!-- Tabs Start-->
+			        <div id="tabbed-nav">
+
+			            <!-- Tab Navigation Menu -->
+			            <ul>
+			                <li><a>Storage Units<span>Self-Storage Units Available</span></a></li>
+			                <li><a>Store<span>Boxes and Packing Supplies</span></a></li>
+			                <li><a>Truck Rental<span>14ft Moving Truck Rental</span></a></li>
+			                <li><a>Contact<span>Call Us or Send Us A Message</span></a></li>
+			            </ul>
+
+<!-- ___________________CONTENT_________________________________ -->
+
+			            <!-- Content container -->
+			            <div>
+
+			                <!-- Storage Units -->
+			                <div></div>
+
+			                <!-- ___________________STORE_________________________________ -->
+
+			                <!-- Store -->
+			                <div></div>
+
+			                <!-- Rental Truck -->
+			                <div>
+			                    <h4>14ft Moving Truck Rental</h4>
+			                    <p>For your convenience, we offer the use of a free moving truck. (Call for details!)</p>
+			                    <p><img src="images/truck.png" /></p>
+			                </div>
+
+			                <!-- Contact -->
+			                <div>
+			                    <h4>Contact Us</h4>
+			                    <p>Address:
+			                    	Hillside Storage
+									2067 East Ironton Blvd.
+									Provo, Utah  84606
+			                </div>
+
+			            </div>
+
+			        </div>
+			        <!-- Tabs End-->
+			    </div>
+
+			    <!-- Tabs Script -->
+			    <script>
+			        jQuery(document).ready(function ($) {
+			            /* jQuery activation and setting options for first tabs, enabling multiline*/
+			            $("#tabbed-nav").zozoTabs({
+			                position: "top-compact",
+			                multiline: true,
+			                theme: "green",
+			                style: "clean",
+			                shadows: true,
+			                bordered: true,
+			                orientation: "horizontal",
+			                size: "medium",
+			                animation: {
+			                    easing: "easeInOutExpo",
+			                    duration: 500,
+			                    effects: "slideH"
+			                }
+			            });
+			        });
+			    </script>
+
+	<!-- _______________FOOTER_____________________________________ -->
+
+				<!-- Site footer -->
+				<footer id="footer">
+					<div class="inner">
+						<a href="index.html">Hillside Storage Provo - <a>(801) 371-9393</a></a>
+					</div>
+				</footer>
+			</div>
+			</div>
+
+		<!-- Scripts -->
+		<script type="text/javascript" src="js/hammer.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="controller/mapCtrl.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#mapplic').mapplic({
+					source: 'locations.json',
+					sidebar: true,
+					minimap: true,
+					locations: false,
+					deeplinking: true,
+					fullscreen: true,
+					hovertip: true,
+					developer: true,
+					maxscale: 4
+				});
+			});
+		</script>
+
+	</body>
+</html>

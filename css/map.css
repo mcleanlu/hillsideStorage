@@ -1,0 +1,66 @@
+#units polygon,
+
+#u5x10 a > * {
+	fill: #00C454;
+	stroke: red;
+	stroke-width: 0;
+	opacity: 0.9;
+}
+
+#u5x10 a:hover > * {
+	fill: orange;
+	stroke-width: 1;
+	opacity: 0.8;
+}
+
+#u10x10 a > * {
+	fill: #f8c255;
+	stroke: red;
+	stroke-width: 0;
+	opacity: 0.9;
+}
+
+#u10x10 a:hover > * {
+	fill: orange;
+	stroke-width: 1;
+	opacity: 0.8;
+}
+
+#u10x15 a > * {
+	fill: #f56b7e;
+	stroke: red;
+	stroke-width: 0;
+	opacity: 0.9;
+}
+
+#u10x15 a:hover > * {
+	fill: orange;
+	stroke-width: 1;
+	opacity: 0.8;
+}
+
+#u10x20 a > * {
+	fill: #b7a6bd;
+	stroke: red;
+	stroke-width: 0;
+	opacity: 0.9;
+}
+
+#u10x20 a:hover > * {
+	fill: orange;
+	stroke-width: 1;
+	opacity: 0.8;
+}
+
+#u10x30 a > * {
+	fill: #7dd5c9;
+	stroke: red;
+	stroke-width: 0;
+	opacity: 0.9;
+}
+
+#u10x30 a:hover > * {
+	fill: orange;
+	stroke-width: 1;
+	opacity: 0.8;
+}

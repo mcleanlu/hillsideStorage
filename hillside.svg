@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   x="0px"
+   y="0px"
+   width="711.6px"
+   height="255.84px"
+   viewBox="0 0 711.6 255.84"
+   enable-background="new 0 0 711.6 255.84">
+
+<g id="units">
+   <g id="u5x10">
+      <a xlink:href="#lot01">
+         <polygon points="633.8,64.92 643.8,65.92 634.8,187.92 623.8,187.92"
+         />
+      </a>
+   </g>
+   <g id="u10x10">
+      <a xlink:href="#lot02">
+         <polygon
+         id="polygon3011"
+         points="600.8,208.92 599.8,217.92 326.8,206.92 327.8,195.92     "
+         />
+      </a>
+      <a xlink:href="#lot03">
+         <polygon
+         id="polygon3017"
+         points="598.8,154.92 595.8,186.92 483.8,181.92 486.8,148.92     "
+         />
+      </a>
+      <a xlink:href="#lot04">
+         <polygon
+         id="polygon3014"
+         points="479.8,149.92 477.8,180.92 344.8,174.92 347.8,140.92     "
+         />
+      </a>
+   </g>
+   <g id="u10x15">
+      <a xlink:href="#lot05">
+         <polygon
+         id="polygon3020"
+         points="483.8,86.92 482.8,118.92 348.8,113.92 350.8,78.92  "
+         />
+      </a>
+      <a xlink:href="#lot06">
+         <polygon
+         id="polygon3023"
+         points="601.8,92.92 599.8,124.92 488.8,119.92 489.8,86.92  "
+         />
+      </a>
+      <a xlink:href="#lot07">
+         <polygon
+         id="polygon3026"
+         points="645.8,32.92 643.8,64.92 458.8,54.92 333.8,48.92    334.8,21.92 489.8,27.92 490.8,22.92  "
+         />
+      </a>
+      <a xlink:href="#lot08">
+         <polygon
+         id="polygon3008"
+         points="295.8,215.92 293.8,245.92 114.8,238.92 116.8,205.92     "
+         />
+      </a>
+      <a xlink:href="#lot09">
+         <polygon
+         id="polygon3005"
+         points="305.8,140.92 305.8,171.92 114.8,173.92 114.8,140.92     "
+         />
+      </a>
+   </g>
+   <g id="u10x20">
+      <a xlink:href="#lot10">
+         <polygon
+         id="polygon3002"
+         points="310.8,78.92 310.8,110.92 113.8,111.92 114.8,77.92  "
+         />
+      </a>
+      <a xlink:href="#lot11">
+         <polygon
+         id="polygon2999"
+         points="314.8,15.92 314.8,47.92 112.8,48.92 112.8,15.92  "
+         />
+      </a>
+      <a xlink:href="#lot12">
+         <polygon
+         id="polygon3029"
+         points="9.8,191.92 8.8,213.92 94.8,223.92 96.8,201.92  "
+         />
+      </a>
+   </g>
+   <g id="u10x30">
+      <a xlink:href="#lot13">
+         <polygon
+         id="polygon2993"
+         points="19.8,59.92 56.8,65.92 45.8,189.92 8.8,186.92"
+         />
+      </a>
+      <a xlink:href="#lot14">
+         <polygon
+         id="polygon2996"
+         points="20.8,15.92 98.8,16.92 98.8,54.92 19.8,55.92"
+         />
+      </a>
+   </g>
+</g>
+</svg>

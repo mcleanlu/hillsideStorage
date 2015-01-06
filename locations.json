@@ -1,0 +1,186 @@
+{
+	"mapwidth": "800",
+	"mapheight": "500",
+	"categories": [
+		{
+			"id": "u5x10",
+			"title": "5x10",
+			"color": "#bfe79e",
+			"show": "false"
+		},
+		{
+			"id": "u10x10",
+			"title": "10x10",
+			"color": "#f8c255",
+			"show": "false"
+		},
+		{
+			"id": "u10x15",
+			"title": "10x15",
+			"color": "#f56b7e",
+			"show": "false"
+		},
+		{
+			"id": "u10x20",
+			"title": "10x20",
+			"color": "#b7a6bd",
+			"show": "false"
+		},
+		{
+			"id": "u10x30",
+			"title": "10x30",
+			"color": "#7dd5c9",
+			"show": "false"
+		}
+	],
+	"levels" : [
+		{
+			"id": "hillside",
+			"map": "hillside.svg",
+			"minimap": "hillside-mini.jpg",
+			"locations" : [
+				{
+					"id": "lot01",
+					"title": "Lot #1",
+					"about": "$15",
+					"description": "Small furnishings, chairs, mattress set and several boxes. 35 standard file boxes, desks and chairs.",
+					"category": "u5x10",
+					"x": "0.8909",
+					"y": "0.4697",
+					"zoom": "5"
+				},
+				{
+					"id": "lot02",
+					"title": "Lot #2",
+					"about": "$20",
+					"description": "Small home furnishings, ladders, boxes, bicycles. 50 standard file boxes and small office furniture.",
+					"category": "u10x10",
+					"tooltip": "default",
+					"x": "0.6477",
+					"y": "0.6777",
+					"zoom": "5"
+				},
+				{
+					"id": "lot03",
+					"title": "Lot #3",
+					"about": "$20",
+					"description": "Small home furnishings, ladders, boxes, bicycles. 50 standard file boxes and small office furniture.",
+					"category": "u10x10",
+					"x": "0.7623",
+					"y": "0.5896",
+					"zoom": "5"
+				},
+				{
+					"id": "lot04",
+					"title": "Lot #4",
+					"about": "$20",
+					"description": "Small home furnishings, ladders, boxes, bicycles. 50 standard file boxes and small office furniture.",
+					"category": "u10x10",
+					"x": "0.5808",
+					"y": "0.5825",
+					"zoom": "5"
+				},
+				{
+					"id": "lot05",
+					"title": "Lot #5",
+					"about": "$25",
+					"description": "Small furnishings, patio furniture, boxes, sofa, desk, washer and dryer. 65 standard file boxes and small office furniture.",
+					"category": "u10x15",
+					"x": "0.5763",
+					"y": "0.4396",
+					"zoom": "5"
+				},
+				{
+					"id": "lot06",
+					"title": "Lot #6",
+					"about": "$25",
+					"description": "Small furnishings, patio furniture, boxes, sofa, desk, washer and dryer. 65 standard file boxes and small office furniture.",
+					"category": "u10x15",
+					"x": "0.7683",
+					"y": "0.4593",
+					"zoom": "5"
+				},
+				{
+					"id": "lot07",
+					"title": "Lot #7",
+					"about": "$25",
+					"description": "Small furnishings, patio furniture, boxes, sofa, desk, washer and dryer. 65 standard file boxes and small office furniture.",
+					"category": "u10x15",
+					"x": "0.6998",
+					"y": "0.2992",
+					"zoom": "5"
+				},
+				{
+					"id": "lot08",
+					"title": "Lot #8",
+					"about": "$25",
+					"description": "Small furnishings, patio furniture, boxes, sofa, desk, washer and dryer. 65 standard file boxes and small office furniture.",
+					"category": "u10x15",
+					"x": "0.2817",
+					"y": "0.7254",
+					"zoom": "5"
+				},
+				{
+					"id": "lot09",
+					"title": "Lot #9",
+					"about": "$25",
+					"description": "Small furnishings, patio furniture, boxes, sofa, desk, washer and dryer. 65 standard file boxes and small office furniture.",
+					"category": "u10x15",
+					"x": "0.2891",
+					"y": "0.5682",
+					"zoom": "5"
+				},
+				{
+					"id": "lot10",
+					"title": "Lot #10",
+					"about": "$50",
+					"description": "Furnishings for a small one bedroom apartment, boxes. 80 standard file boxes, desks and chairs.",
+					"category": "u10x20",
+					"x": "0.2861",
+					"y": "0.4277",
+					"zoom": "5"
+				},
+				{
+					"id": "lot11",
+					"title": "Lot #11",
+					"about": "$50",
+					"description": "Furnishings for a small one bedroom apartment, boxes. 80 standard file boxes, desks and chairs.",
+					"category": "u10x20",
+					"x": "0.3025",
+					"y": "0.2754",
+					"zoom": "5"
+				},
+				{
+					"id": "lot12",
+					"title": "Lot #12",
+					"about": "$50",
+					"description": "Furnishings for a small one bedroom apartment, boxes. 80 standard file boxes, desks and chairs.",
+					"category": "u10x20",
+					"x": "0.0689",
+					"y": "0.6754",
+					"zoom": "5"
+				},
+				{
+					"id": "lot13",
+					"title": "Lot #13",
+					"about": "$120",
+					"description": "Furnishings one bedroom apartment, lawn and garden equipment, boxes. 155 standard file boxes, desks, chairs and file cabinets.",
+					"category": "u10x30",
+					"x": "0.0406",
+					"y": "0.5063",
+					"zoom": "5"
+				},
+				{
+					"id": "lot14",
+					"title": "Lot #14",
+					"about": "$120",
+					"description": "Furnishings one bedroom apartment, lawn and garden equipment, boxes. 155 standard file boxes, desks, chairs and file cabinets.",
+					"category": "u10x30",
+					"x": "0.0808",
+					"y": "0.2992",
+					"zoom": "5"
+				}
+			]
+		}
+	]
+}
